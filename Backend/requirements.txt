@@ -1,0 +1,17 @@
+# Install Flask for the backend
+pip install flask flask-cors fastapi uvicorn
+
+# Install AI-related tools (Later used for AI processing)
+pip install crewai openai pinecone-client whisper
+
+# Install file extraction libraries
+pip install pymupdf python-docx python-pptx pandas openpyxl
+
+# Install Streamlit for UI
+pip install streamlit
+
+# Install PostgreSQL driver
+pip install psycopg2
+
+# Save dependencies
+pip freeze > requirements.txt
